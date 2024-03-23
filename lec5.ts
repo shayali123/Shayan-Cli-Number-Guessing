@@ -1,5 +1,6 @@
 import inquirer from "inquirer"
 
+// let number = 13;
 let random = Math.floor(Math.random() * 10 + 1);
 // console.log(random)
 const answer = await inquirer.prompt([
